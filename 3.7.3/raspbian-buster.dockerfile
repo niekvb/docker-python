@@ -1,5 +1,5 @@
-# Use Raspbian stretch as base image
-FROM balenalib/rpi-raspbian:stretch
+# Use Raspbian buster as base image
+FROM balenalib/rpi-raspbian:buster
 
 # Install prerequisites for compiling Python 3.7.3
 RUN apt-get update && apt-get install -y build-essential checkinstall
